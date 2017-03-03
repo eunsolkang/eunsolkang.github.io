@@ -5,8 +5,19 @@ html, body{
 li{
   list-style: none;
 }
+*{
+
+}
+body{
+  /*margin-top: 80px;*/
+}
+a:link { color: orange; text-decoration: none;}
+a:visited { color: orange; text-decoration: none;}
+a:hover { color: orange; text-decoration: none;}
+
 #p1{
   width:100%;
+  /*padding-top: 80px;*/
   height: 300px;
   border: 1px solid black;
   background-image: url('../img/background.png');
@@ -20,4 +31,52 @@ li{
   font-size: 50pt;
   padding-left: 1rem;
   font-family: "Raleway";
+}
+#p2{
+  padding-top: 2rem;
+  /*width:100%;*/
+}
+#p2 .title-text{
+  text-align: center;
+  color:black;
+  font-size: 30pt;
+  padding-left: 1rem;
+  font-family: "Raleway";
+}
+#p2 .title-sub-text{
+  text-align: center;
+  margin-top: 1rem;
+  color: gray;
+  font-family: "Raleway";
+}
+#p2 .project-group{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+#p2 .project-group img{
+
+}
+#p2 .project-group .project-card{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+#p2 .project-group .project-card .project-index{
+  padding: 1rem;
+}
+#p2 .project-group .project-card .project-index .project-name{
+  font-size: 12pt;
+}
+#p2 .project-group .project-card .project-index .project-sub-index{
+  margin-top: 0.5rem;
+  font-size: 9pt;
+  color: gray;
+}
+#p2 .project-group .project-card .project-index .project-view{
+  margin-top: 0.5rem;
+  font-size: 10pt;
 }
