@@ -2,9 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>EUNSOL PERSONAL BLOG</title>
+    <title>Blog :: Eunsol</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="theme-color" content="#569e93">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="웹 개발자 강은솔의 개인 포트폴리오 블로그">
+
+    <link rel="image_src" href="img/ic_logo.png">
+    <link rel="shortcut icon" href="img/ic_logo.png">
+    <link rel="apple-touch-icon" href="img/ic_logo.png">
+
+    <meta property="og:title" content="EUNSOL :: PERSONAL BLOG">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/ic_logo.png">
+    <script src="js/main.js" charset="utf-8"></script>
   </head>
   <body>
     <header>
@@ -37,78 +51,98 @@
       </div>
       <div class="project-group">
         <div class="project-card">
-          <img src="http://placehold.it/200" />
+          <img src="img/project_1.png" />
           <div class="project-index">
             <div class="project-name">
-              PROJECT
+              Bird Wiser
             </div>
             <div class="project-sub-index">
-              This is a huge project.
+              Schedule management service
             </div>
             <div class="project-view">
-              <a href="#">VIEW PROJECT</a>
+              <a href="#open" class="popup-link">VIEW PROJECT</a>
             </div>
           </div>
         </div>
         <div class="project-card">
-          <img src="http://placehold.it/200" />
+          <img src="img/project_2.jpg" />
           <div class="project-index">
             <div class="project-name">
-              PROJECT
+              NoWhere
             </div>
             <div class="project-sub-index">
-              This is a huge project.
+              Real-time translation service
             </div>
             <div class="project-view">
-              <a href="#">VIEW PROJECT</a>
+              <a href="#open" class="popup-link">VIEW PROJECT</a>
             </div>
           </div>
         </div>
         <div class="project-card">
-          <img src="http://placehold.it/200" />
+          <img src="img/project_3.png" />
           <div class="project-index">
             <div class="project-name">
-              PROJECT
+              EDCAN.KR
             </div>
             <div class="project-sub-index">
-              This is a huge project.
+              Official homepage of the club
             </div>
             <div class="project-view">
-              <a href="#">VIEW PROJECT</a>
+              <a href="#open" class="popup-link">VIEW PROJECT</a>
             </div>
           </div>
         </div>
         <div class="project-card">
-          <img src="http://placehold.it/200" />
+          <img src="img/project_7.png" />
           <div class="project-index">
             <div class="project-name">
-              PROJECT
+              Zombie game
             </div>
             <div class="project-sub-index">
-              This is a huge project.
+              Top down view shootting game
             </div>
             <div class="project-view">
-              <a href="#">VIEW PROJECT</a>
+              <a href="#open" class="popup-link">VIEW PROJECT</a>
             </div>
           </div>
         </div>
         <div class="project-card">
-          <img src="http://placehold.it/200" />
+          <img src="img/project_5.png" />
           <div class="project-index">
             <div class="project-name">
-              PROJECT
+              Red it
             </div>
             <div class="project-sub-index">
-              This is a huge project.
+              Fire safety navigation services
             </div>
             <div class="project-view">
-              <a href="#">VIEW PROJECT</a>
+              <a href="#open" class="popup-link">VIEW PROJECT</a>
             </div>
           </div>
         </div>
 
       </div>
+      <div class="fb-post" data-href="{your-post-url}"></div>
 
     </section>
+    <section class="project-pop" id="open">
+      <div class="project-pop-outline">
+        <div class="cancle_button">
+            <a href="#close"><img src="img/cancel.png" alt="" draggable="false"></a>
+        </div>
+        <div class="project-pop-index">
+
+        </div>
+      </div>
+    </section>
+
   </body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </html>

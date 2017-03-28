@@ -29,3 +29,11 @@ header .menu-icon img{
 header .menu-link{
   flex:1;
 }
+@media (max-width : 768px) {
+  header .menu-list li{
+    display: none;
+  }
+  header{
+    height: 70px;
+  }
+}
