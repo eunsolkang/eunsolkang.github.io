@@ -113,7 +113,16 @@ a:hover { color: orange; text-decoration: none;}
   margin-top: 0.5rem;
   font-size: 10pt;
 }
+<<<<<<< HEAD
 
+=======
+@media (max-width : 768px) {
+  #p2 .title-sub-text{
+    font-size: 9pt;
+  }
+}
+<<<<<<< HEAD
+>>>>>>> 862513651c3f7aa29f18628a8f3e0d5ae63dbd9d
 .project-pop{
   position: fixed;
   top: 0;
@@ -157,3 +166,5 @@ a:hover { color: orange; text-decoration: none;}
   height: 8%;
   width:100%;
 }
+=======
+>>>>>>> cfca7f5f4de9f0f0ec5c3c5e561d736e1636eaa2
