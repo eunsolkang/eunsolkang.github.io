@@ -5,30 +5,34 @@
     <title>Blog :: Eunsol</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/url.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <meta name="theme-color" content="#569e93">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="description" content="웹 개발자 강은솔의 개인 포트폴리오 블로그">
 
-    <link rel="image_src" href="img/ic_logo.png">
-    <link rel="shortcut icon" href="img/ic_logo.png">
-    <link rel="apple-touch-icon" href="img/ic_logo.png">
+    <link rel="image_src" href="img/ic/ic_logo.png">
+    <link rel="shortcut icon" href="img/ic/ic_logo.png">
+    <link rel="apple-touch-icon" href="img/ic/ic_logo.png">
 
     <meta property="og:title" content="EUNSOL :: PERSONAL BLOG">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="img/ic_logo.png">
+    <meta property="og:image" content="img/ic/ic_logo.png">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="js/main.js" charset="utf-8"></script>
   </head>
   <body>
     <header>
       <div class="menu-list">
-        <li>PROJECT</li>
+        <li><a href="#p2">PROJECT</a></li>
+        <li><a href="#p3">EDUCATION</a></li>
         <li>ABOUT</li>
-        <li>MEMO</li>
       </div>
       <div class="menu-icon">
-        <img src="img/ic_logo.png" alt="" draggable="false">
+        <img src="img/ic/ic_logo.png" alt="" draggable="false">
       </div>
       <div class="menu-link">
 
@@ -39,19 +43,19 @@
         BLOG
       </div>
       <div class="title-text">
-        EUNSOL
+        ENGOING
       </div>
     </section>
     <section id="p2" class="project">
       <div class="title-text">
-        Portfolio
+        <span>Portfolio</span>
       </div>
       <div class="title-sub-text">
          Projects created and participated in over the past year
       </div>
       <div class="project-group">
-        <div class="project-card">
-          <img src="img/project_1.png" />
+        <div class="project-card sub-card">
+          <a href="#open_1"><img src="img/cover/project_1.png" /></a>
           <div class="project-index">
             <div class="project-name">
               Bird Wiser
@@ -60,12 +64,12 @@
               Schedule management service
             </div>
             <div class="project-view">
-              <a href="#open" class="popup-link">VIEW PROJECT</a>
+              <a href="#" class="popup-link">VIEW PROJECT</a>
             </div>
           </div>
         </div>
-        <div class="project-card">
-          <img src="img/project_2.jpg" />
+        <div class="project-card sub-card">
+          <a href="#open_2"><img src="img/cover/project_2.jpg"/></a>
           <div class="project-index">
             <div class="project-name">
               NoWhere
@@ -74,12 +78,12 @@
               Real-time translation service
             </div>
             <div class="project-view">
-              <a href="#open" class="popup-link">VIEW PROJECT</a>
+              <a href="#" class="popup-link">VIEW PROJECT</a>
             </div>
           </div>
         </div>
-        <div class="project-card">
-          <img src="img/project_3.png" />
+        <div class="project-card sub-card">
+          <a href="#open_3"><img src="img/cover/project_3.png" /></a>
           <div class="project-index">
             <div class="project-name">
               EDCAN.KR
@@ -88,12 +92,12 @@
               Official homepage of the club
             </div>
             <div class="project-view">
-              <a href="#open" class="popup-link">VIEW PROJECT</a>
+              <a href="#" class="popup-link">VIEW PROJECT</a>
             </div>
           </div>
         </div>
-        <div class="project-card">
-          <img src="img/project_7.png" />
+        <div class="project-card sub-card">
+          <a href="#open_4"><img src="img/cover/project_6.png" /></a>
           <div class="project-index">
             <div class="project-name">
               Zombie game
@@ -102,12 +106,12 @@
               Top down view shootting game
             </div>
             <div class="project-view">
-              <a href="#open" class="popup-link">VIEW PROJECT</a>
+              <a href="#" class="popup-link">VIEW PROJECT</a>
             </div>
           </div>
         </div>
-        <div class="project-card">
-          <img src="img/project_5.png" />
+        <div class="project-card sub-card">
+          <a href="#open_5"><img src="img/cover/project_5.png" /></a>
           <div class="project-index">
             <div class="project-name">
               Red it
@@ -116,7 +120,7 @@
               Fire safety navigation services
             </div>
             <div class="project-view">
-              <a href="#open" class="popup-link">VIEW PROJECT</a>
+              <a href="#open_5" class="popup-link">VIEW PROJECT</a>
             </div>
           </div>
         </div>
@@ -125,24 +129,82 @@
       <div class="fb-post" data-href="{your-post-url}"></div>
 
     </section>
-    <section class="project-pop" id="open">
+    <section id="p2" class="project">
+      <div class="title-text">
+        <span>Education</span>
+      </div>
+      <div class="title-sub-text">
+         HTML, CSS, JS, Jquery, Socket, Canvas
+      </div>
+      <div class="project-group">
+        <div class="project-card ed-card">
+          <img src="img/cover/logo_html.png" draggable="false" />
+
+        </div>
+        <div class="project-card ed-card">
+          <img src="img/cover/logo_css.png" draggable="false"/>
+
+        </div>
+        <div class="project-card ed-card">
+          <img src="img/cover/logo_js.png" draggable="false"/>
+        </div>
+
+      </div>
+
+    </section>
+    <section class="project-pop" id="open_1">
       <div class="project-pop-outline">
         <div class="cancle_button">
-            <a href="#close"><img src="img/cancel.png" alt="" draggable="false"></a>
+            <a href="#close"><img src="img/ic/ic_cancel.png" alt="" draggable="false"></a>
         </div>
-        <div class="project-pop-index">
+        <div class="project-pop-index" id="index_1">
 
         </div>
       </div>
     </section>
+    <section class="project-pop" id="open_2">
+      <div class="project-pop-outline">
+        <div class="cancle_button">
+            <a href="#close"><img src="img/ic/ic_cancel.png" alt="" draggable="false"></a>
+        </div>
+        <div class="project-pop-index" id="index_2">
 
+        </div>
+      </div>
+    </section>
+    <section class="project-pop" id="open_3">
+      <div class="project-pop-outline">
+        <div class="cancle_button">
+            <a href="#close"><img src="img/ic/ic_cancel.png" alt="" draggable="false"></a>
+        </div>
+        <div class="project-pop-index" id="index_3">
+
+        </div>
+      </div>
+    </section>
+    <section class="project-pop" id="open_4">
+      <div class="project-pop-outline">
+        <div class="cancle_button">
+            <a href="#close"><img src="img/ic/ic_cancel.png" alt="" draggable="false"></a>
+        </div>
+        <div class="project-pop-index" id="index_4">
+
+        </div>
+      </div>
+    </section>
+    <section class="project-pop" id="open_5">
+      <div class="project-pop-outline">
+        <div class="cancle_button">
+            <a href="#close"><img src="img/ic/ic_cancel.png" alt="" draggable="false"></a>
+        </div>
+        <div class="project-pop-index" id="index_5">
+
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>This page based on Github.</p>
+      <p>Create by Zeg</p>
+    </footer>
   </body>
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 </html>

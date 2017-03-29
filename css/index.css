@@ -20,7 +20,7 @@ a:hover { color: orange; text-decoration: none;}
   /*padding-top: 80px;*/
   height: 300px;
   border: 1px solid black;
-  background-image: url('../img/background.png');
+  background-image: url('../img/bg/bg_main.png');
   background-size: cover;;
   display: flex;
   justify-content: flex-end;
@@ -67,20 +67,42 @@ a:hover { color: orange; text-decoration: none;}
   width:200px;
   height: auto;
 }
+#p2 .project-group .project-card a{
+  max-height: 200px;
+}
 #p2 .project-group .project-card{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   display: flex;
   /*float: left;*/
   flex-direction: column;
-  border: 1px solid black;
-    margin-bottom: 2rem;
+  /*border: 1px solid lightgray;*/
+  margin-bottom: 2rem;
+  justify-content:space-between;
+}
+#p2 .project-group .ed-card{
+  /*border: 1px solid black;*/
+  border-radius: 100%;
+  /*border: 1px solid black;*/
+  margin-left: 3.3rem;
+  margin-right: 3.3rem;
+
+}
+#p2 .project-group .ed-card img{
+  border-radius: 100%;
+  cursor: pointer;
 }
 #p2 .project-group .project-card .project-index{
   padding: 1rem;
+  align-items: flex-end;
+
+}
+#p2 .project-group .sub-card .project-index{
+  border: 1px solid black;
 }
 #p2 .project-group .project-card .project-index .project-name{
   font-size: 12pt;
+
 }
 #p2 .project-group .project-card .project-index .project-sub-index{
   margin-top: 0.5rem;
@@ -91,11 +113,7 @@ a:hover { color: orange; text-decoration: none;}
   margin-top: 0.5rem;
   font-size: 10pt;
 }
-@media (max-width : 768px) {
-  #p2 .title-sub-text{
-    font-size: 9pt;
-  }
-}
+
 .project-pop{
   position: fixed;
   top: 0;
@@ -122,8 +140,7 @@ a:hover { color: orange; text-decoration: none;}
 .project-pop .project-pop-outline .project-pop-index{
   	/*background-color: rgb(244, 244, 244);*/
     height: 92%;
-    background-image: url('../img/9.png');
-    background-size: cover;
+
 }
 .project-pop .project-pop-outline .cancle_button a{
   margin-right: 1rem;
